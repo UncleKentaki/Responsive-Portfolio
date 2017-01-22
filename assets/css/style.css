@@ -1,0 +1,132 @@
+a:link    {
+	color:#777777;
+	text-decoration:  none;
+} 
+
+a:visited {
+
+	color:#777777;
+	text-decoration:  none;
+
+}
+
+.links li:not(:first-child):after {
+    content: " | ";
+    padding-right: 0px;
+    color: #d9d9d9 ;
+}
+
+body {
+	
+	background-color: #cccccc;
+	font-color: #777777;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	
+}
+
+li {
+	float:right;
+	margin-right:10px;
+	list-style-type: none;
+	
+}
+
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size:32px;
+	padding: 23px 20px 22px 20px;
+	background-color:#4aaaa5;
+	float:left;
+	margin-left: 20px;
+	margin-top: 0px;
+	color:#fff
+}
+
+
+h2 {
+	
+	padding-left: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:#4aaaa5;	
+	border-bottom:2px solid #dddddd;
+	
+}
+
+
+img#github , #linkedin , #stackoverflow {
+	
+width:60px;
+height:60px;
+float:left;
+margin-left: 20px;
+}
+
+#bioHeader {
+	font-size:32px;
+	text-align: left;
+	size:630px;
+	align-content: center;
+}
+
+.bio {
+	float: left;
+	height: 500px;
+	width: 650px; 
+	background-color: #fff;
+	
+}
+
+.container {
+	clear: both;
+	background-image: url("../images/ignasi_pattern_s.png");
+	width:960px;
+	height: 564px;
+
+}
+
+.links {
+	padding-top:10px;
+	padding-right:20px;
+	
+}
+
+.bio-image{
+	size:200px 200px;
+	margin-left: 25px;
+	float:left;
+}
+
+.connect {
+	width:270px;
+	float:right;
+	height: 150px;
+	background-color: #ffffff;
+	border:2px solid #dddddd;
+
+}
+
+header {
+	height: 80px;
+	width: 960px;
+	background-color: #fff;
+	border-bottom:2px solid #ccc;
+}
+
+footer {
+
+}
+.footer {
+	clear: both;
+	width:650px;
+	height:50px;
+	padding:30px;
+	background-color: #666
+	border-top:4px solid #4aaaa5;
+	}
+
+p {
+	font-size:40px;
+	font-kerning: 5px;
+	
+}
