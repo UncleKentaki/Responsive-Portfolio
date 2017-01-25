@@ -1,72 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
-  
-  <title>Sean Naylor</title>
-  
-  <link rel="stylessheet" type="text/css" href="assets/css/reset.css">
-  
+  <title>Contact | Sean Naylor</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-  
-
 </head>
 
 <body>
 
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Sean Naylor</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <header>
-    
-    <h1>Sean Naylor</h1>
-    
-    <section class="links" ="links">
-      <ul>
-        <li id="about"><a href="index.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
     </section>
 
-  </header>
-    
-    <div class="container">
-      
-
-      <div class="contact">
-
-        <h2 id="contactheader">Contact Me</h2>
-
-        
-
-        <p>
-          
-        </p>
-      </div>
-
-      <div class="connect">
-
+    <section class="sidebar">
+      <div id="connect">
         <h2>Connect with Me</h2>
-        
-        <a href="https://github.com/UncleKentaki">
-          <img id="github" src="assets/images/github.png" alt="Github">
-        </a>
 
-        <a href="https://www.linkedin.com/in/sean-naylor-8a8b76132?trk=hp-identity-name">
-          <img id="linkedin" src="assets/images/linkedin.png">
-        </a>
-
-        <a href="http://stackoverflow.com/users/7390158/sean-naylor">
-          <img id="stackoverflow" src="assets/images/stackoverflow.png">
-        </a>
-
+       <a href="https://github.com/UncleKentaki"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/sean-naylor-8a8b76132?trk=hp-identity-name"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="https://stackoverflow.com/users/7390158/sean-naylor"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow"/></a>
       </div>
-      
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Sean Naylor
     </div>
+  </footer>
+</body>
 
-      <footer class="footer">© 2017 Sean Naylor</footer>
-    
-    </body>
-
-    </html>
+</html>
